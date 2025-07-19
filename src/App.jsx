@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
 import Upperheader from './components/upperheader.jsx'
 import Mainheader from './components/Mainheader.jsx';
+import Login from './pages/Login.jsx'
+
 function App() {
-  const [color, setColor] = useState('black');
+ 
 
   return (
     <div >
-      <Upperheader/>
-      <Mainheader/>
+      {/* <Upperheader/> */}
+      {/* <Mainheader/> */}
+      <Login/>
     </div>
   );
 }

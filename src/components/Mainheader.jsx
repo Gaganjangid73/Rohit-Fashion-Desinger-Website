@@ -15,18 +15,18 @@ const Mainheader = () => {
       </div>
       <div className="text-[#E0B876] flex justify-center items-center font-serif text-base">
         <ul className="flex space-x-9 ">
-          <li className="hover:text-white hover:border-b border-black ">Home </li>
-          <li className="hover:text-white hover:border-b border-black ">ABOUT US </li>
-          <li className="flex items-center gap-1 hover:text-white hover:border-b border-black "> HERTIAGE WEAR <FaChevronDown className="inline w-3 h-3" /></li>
-          <li className="flex items-center gap-1 hover:text-white hover:border-b border-black "> WEDDING WEAR  <FaChevronDown className="inline w-3 h-3"/></li>
+          <li className="hover:text-white hover:border-b border-black cursor-pointer">Home </li>
+          <li className="hover:text-white hover:border-b border-black cursor-pointer">ABOUT US </li>
+          <li className="flex items-center gap-1 hover:text-white hover:border-b border-black cursor-pointer "> HERTIAGE WEAR <FaChevronDown className="inline w-3 h-3" /></li>
+          <li className="flex items-center gap-1 hover:text-white hover:border-b border-black cursor-pointer"> WEDDING WEAR  <FaChevronDown className="inline w-3 h-3"/></li>
           <li className="hover:text-white hover:border-b border-black "> CONTACT </li>
         </ul>
       </div>
       <div className="flex space-x-9 justify-center items-center">
-      <IoIosSearch className="w-5 h-5"/>
-      <IoPerson className="w-5 h-5"/>
-      <IoMdHeartEmpty className="w-5 h-5"/>
-      <MdShoppingCart className="w-5 h-5"/>
+      <IoIosSearch className="w-5 h-5 cursor-pointer"/>
+      <IoPerson className="w-5 h-5 cursor-pointer"/>
+      <IoMdHeartEmpty className="w-5 h-5 cursor-pointer"/>
+      <MdShoppingCart className="w-5 h-5 cursor-pointer"/>
       </div>
     </div>
 
